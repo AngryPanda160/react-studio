@@ -1,9 +1,21 @@
 /* Add styling for your page here */
 
 .App {
-
+  display: flex;
 }
 
-.BakeryItem {
-  
+.bakeryTitle {
+  padding-left: 8px;
+}
+
+.bakeryDisplay {
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bakeryItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
